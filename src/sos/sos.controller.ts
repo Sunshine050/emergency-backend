@@ -1,6 +1,7 @@
 import { Controller, Post, Body, Get, Param } from '@nestjs/common';
 import { SOSService } from './sos.service';
 
+
 @Controller('sos')
 export class SOSController {
   constructor(private readonly sosService: SOSService) {}
