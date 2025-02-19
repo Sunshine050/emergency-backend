@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { UsersModule } from './users/users.module';
-import { SOSModule } from './sos/sos.module'; // เปลี่ยน SosModule -> SOSModule
+import { SOSModule } from './sos/sos.module'; 
 
 import { NotificationsModule } from './notifications/notifications.module';
 
