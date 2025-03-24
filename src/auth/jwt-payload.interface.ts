@@ -1,0 +1,7 @@
+// src/auth/jwt-payload.interface.ts
+
+export interface JwtPayload {
+    username: string;
+    sub: number; // sub อาจจะเป็น id ของผู้ใช้
+  }
+  
